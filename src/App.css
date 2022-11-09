@@ -1,0 +1,94 @@
+body{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.background{
+  background: hsla(197, 100%, 63%, 1);
+
+background: linear-gradient(45deg, hsla(197, 100%, 63%, 1) 25%, hsla(294, 100%, 55%, 1) 83%);
+
+background: -moz-linear-gradient(45deg, hsla(197, 100%, 63%, 1) 25%, hsla(294, 100%, 55%, 1) 83%);
+
+background: -webkit-linear-gradient(45deg, hsla(197, 100%, 63%, 1) 25%, hsla(294, 100%, 55%, 1) 83%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+  text-align: center;
+  height: 20rem;
+  width: 40rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper{
+  background: hsla(197, 100%, 63%, 1);
+
+background: linear-gradient(45deg, hsla(197, 100%, 63%, 1) 25%, hsla(294, 100%, 55%, 1) 83%);
+
+background: -moz-linear-gradient(45deg, hsla(197, 100%, 63%, 1) 25%, hsla(294, 100%, 55%, 1) 83%);
+
+background: -webkit-linear-gradient(45deg, hsla(197, 100%, 63%, 1) 25%, hsla(294, 100%, 55%, 1) 83%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+height: 10rem;
+width: 20rem;
+border-radius: 1rem;
+box-shadow: 1px 1px 1px 1px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.generate-password{
+  height: 2rem;
+  width: 15rem;
+  font-size: 1.2rem;
+  border-radius: .3rem;
+}
+.password{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
